@@ -52,6 +52,7 @@ deploy:
   api_key:
     secure: "2adeigW2/OEC5ItlgbRWRzeyRuO+CZofFXesK16B9sSu7SuaXM4hnfBXdqQzosjcj/3BywVMXT3M9LtPrc0kwbRe4ee8+5QrRJmpq26HK0ASJdJ3ht38V2joloxmHFwPBKTRZLKbZK6JKNYmEpCN1gqp/QL/eLDXD1mg4G9aj1AgCXu+PakZ3SIDWv5mtXi1zTPTD2t8ZUqFohmFL+2LOM4mT4d2p5Pp918UEcKiEpV3xd50tf2G4n4qZ6LzZ+q5aK9yETFDEpntRvm9uwjTY3Ubq9jVEK2THlVzv2Mf6c7a8XzQ83F/uFVhuAhVUAZFyx/4nO9P2LB8j4HYPGI9HVNQxIdA//3qeUaEvcBSxIhkHTmO3oMqRmJalQTMDGX9EgeViobTtEkiCRLXNwGfNlXTXXnFWfjy5+epnxn8Mzje5fSHzU7MS0Sx71r/UTgUTN80Y14LOGCupY2xsK1CDxR6Tx+4cNBk08c5t6KztyiTT/hMebL9fWtyOr5TIQLyQJ9htEpnWIkWcH0q8CXYhEnfBAUdzd+bo2Am32YLQEn0oplNnQ12RzThvUh6MoRei0Q0/TG1vlAEGJmwnX5EcdSL+h5hFhqD6zdIFwpkaUqKRUrMb7rxYNA5ui+R1AOCip6skHn04omTT1TjkbDxERzeTfJ8qad3SmQ+AMl1xD0="
   skip_cleanup: true
+  prerelease: true
   name: ${TRAVIS_TAG:-snapshot-$(date +'%Y%m%d-%H%M%S')-$(git log --format=%h -1)}
   body: ${TRAVIS_COMMIT_MESSAGE}
   file:
