@@ -2,7 +2,7 @@
     <img src="https://s3.amazonaws.com/nitroxmod/Logo.png" alt="Nitrox" />
 </p>
 
-# Subnautica Nitrox
+# Subnautica Nitrox [![Build Status](https://travis-ci.org/DKingCN/Nitrox.svg?branch=master)](https://travis-ci.org/DKingCN/Nitrox)
 An open-source, multiplayer modification for the game <a href="https://unknownworlds.com/subnautica/">Subnautica</a>.
 
 ## FAQ
